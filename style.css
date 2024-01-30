@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Mulish", sans-serif;
+}
+:root {
+  font-size: 62.5%;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 43rem;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f4fb;
+}
+.first-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#astronaut {
+  margin: 0 auto;
+  width: 36.4rem;
+}
+.first-section h1,
+.third-section h1 {
+  margin-top: 1.7rem;
+  color: #b52184;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.first-section h2 {
+  color: #312d64;
+  margin-top: 0.5rem;
+  margin-bottom: 3.5rem;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#arrow {
+  padding-bottom: 9.3rem;
+}
+.second-section {
+  background: #312d64;
+}
+.container {
+  padding: 2.65rem;
+  margin: 5rem 4rem;
+  background: #ffffff;
+  border-radius: 2rem;
+}
+.container img {
+  margin-bottom: 3.3rem;
+  height: 8rem;
+  width: 8rem;
+}
+.container h1 {
+  color: #b52184;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+.container h2 {
+  color: #312d64;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.third-section {
+  padding-top: 7.8rem;
+  background: #f9f4fb;
+}
+.third-section h1 {
+  margin-bottom: 4.3rem;
+}
+.third-section h1,
+form,
+.button {
+  margin-left: 4.3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4.3rem;
+}
+.input-wrapper img {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.input-wrapper input {
+  padding: 1.2rem 1.6rem 1.2rem 4rem;
+  border-radius: 1.6rem;
+  border: 1.5px solid #312d64;
+  color: #312d64;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.input-wrapper textarea {
+  color: #312d64;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+  height: 126px;
+  border-radius: 1.6rem;
+  border: 1.5px solid #312d64;
+}
+.button {
+  color: white;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  border: none;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  margin-top: 2.4rem;
+  margin-bottom: 6.5rem;
+}
+#background {
+  height: 1px;
+  width: 1px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7.8rem;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+}
+footer p {
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (min-width: 1100px) {
+  #app {
+    width: 100%;
+  }
+  .first-section {
+    display: flex;
+    align-items: normal;
+    height: 84rem;
+    flex-direction: row-reverse;
+  }
+  .first-section div {
+    align-items: start;
+    margin-left: 10rem;
+    width: 50%;
+  }
+  .first-section div h1 {
+    margin-top: 31rem;
+    font-size: 5.8rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .first-section div h2 {
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 17rem;
+  }
+  .first-section div img {
+    height: 20rem;
+  }
+  #astronaut {
+    width: 72rem;
+    height: 73rem;
+  }
+  .second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .container {
+    width: 36.6rem;
+    height: 44.8rem;
+  }
+  .third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .wrap {
+    margin-left: 10rem;
+    width: 80rem;
+  }
+  .wrap h1 {
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  #background {
+    height: 612px;
+    width: 644px;
+  }
+}
